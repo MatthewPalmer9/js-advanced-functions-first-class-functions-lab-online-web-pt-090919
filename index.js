@@ -19,3 +19,6 @@ const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
 
+function selectDifferentDrivers(driver, driverFunction){
+  return driverFunction(driver);
+}
